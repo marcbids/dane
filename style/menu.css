@@ -1,0 +1,52 @@
+.menu-content {
+  color: white;
+  margin-bottom: 50px;
+}
+
+.menu-title {
+  text-align: center;
+}
+.menu-nav {
+  padding: 30px;
+  margin: auto;
+  width: 45%;
+  margin-bottom: 30px;
+}
+
+.menu-item {
+  margin-bottom: 5rem;
+}
+
+.menu-nav-list {
+  display: flex;
+  margin: auto;
+  padding: 0;
+  border: 2px solid black;
+  background: rgb(153 153 153 / 60%);
+  box-shadow: 5px 10px rgb(153 153 153);
+  border-radius: 30px;
+}
+
+.menu-nav-list-item {
+  /* border: 1px solid gray; */
+  padding: 7px 5rem;
+  cursor: pointer;
+}
+
+#Donut-menu,
+#Pizza-menu {
+  border-right: 2px solid black;
+}
+
+.menu-item-description-container {
+  display: inline-grid;
+}
+
+.add-to-cart-button {
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.item-image {
+  border-radius: 20px;
+}

@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Slab", serif;
+}
+
+body {
+  background-image: url("../utils/background.webp");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+}
+
+/* links */
+
+a:link {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:visited {
+  color: inherit;
+}
+
+.list-style-none {
+  list-style: none;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}

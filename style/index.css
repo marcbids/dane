@@ -1,0 +1,43 @@
+/* Carousel */
+
+.carousel-image1 {
+  background-image: url(../utils/carousel-image1.jpg);
+}
+
+.carousel-image2 {
+  background-image: url(../utils/carousel-image2.jpg);
+}
+
+.carousel-image3 {
+  background-image: url(../utils/carousel-image3.jpg);
+}
+
+.carousel-images {
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  padding-top: 350px;
+}
+
+/* content */
+
+.content {
+  display: flex;
+  justify-content: space-around;
+  padding: 5%;
+  color: white;
+}
+
+.content > div {
+  padding: 5px 50px;
+  text-align: center;
+}
+
+.content-logo {
+  padding-bottom: 10px;
+}
+
+.content-title {
+  padding-bottom: 20px;
+}

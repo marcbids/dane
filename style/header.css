@@ -1,0 +1,64 @@
+/* header */
+
+.header {
+  background-image: url("../utils/background.webp");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-attachment: fixed;
+  background-size: cover;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  margin-bottom: 30px;
+}
+
+.navbar {
+  background-color: transparent;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 5%;
+  align-items: center;
+}
+
+.navbar-logo {
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.navbar-logo-img {
+  width: 135px;
+  display: block;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0 !important;
+}
+
+.nav-list li {
+  color: #f5793b;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.nav-list li span {
+  display: block;
+  padding: 10px;
+}
+
+.nav-list li span:hover {
+  border-bottom: 2px solid;
+}
+
+.active {
+  border-bottom: 2px solid;
+}
